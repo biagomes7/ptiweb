@@ -129,7 +129,7 @@ p{
 }
 
 #press{
-    background-color: #fff;    
+    background-color: #f7f7f8;    
     padding-bottom: 3%;
 }
 
@@ -161,6 +161,10 @@ p{
 
 .social-icon{
     margin: 20px 10px;
+} 
+
+.produtor{
+    color: #fff;
 }
 
 @media (max-width: 1028px){
@@ -170,5 +174,6 @@ p{
     }
     .title-image{
        position: static;
-     }
+       transform: rotate(0);
+    }
 }
